@@ -1,1 +1,9 @@
-<h1>ciao sono home</h1>
+@extends('layout.app')
+
+@section('paragrafo_name')
+    Homepage
+@endsection
+
+@section('paragrafo_principale')
+    Testo homepage
+@endsection
